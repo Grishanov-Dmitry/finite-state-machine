@@ -47,6 +47,7 @@ class FSM {
       this.history.push(this.state);
       this.redoHistory = [];
       this.state = transitions[event];
+
     }
 
     /**
